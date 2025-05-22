@@ -1,0 +1,15 @@
+CORE
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+ipykernel
+nbformat
+
+ADDITIONAL
+einops
+sae_lens
+tqdm
+openai
+
