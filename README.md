@@ -26,7 +26,7 @@ Then run the code in the notebook `1-process_sae_activations.ipynb`.
 
 **Part 2:** Getting text embeddings from OpenAI's `text-embedding-large-3`.
 
-Running this code is currently required, but we will shortly provide a link to download the embeddings obtained in this part.
+Running this part is optional. The files `colours_reprs.csv` and `dates_reprs.csv` can be downloaded from [https://1drv.ms/f/c/3b1b1d9d0fc5490f/Ejq918cXq7lHhk8mfk34YO8BDTYlN8a_13xZXaHra3egtA?e=YonIrY](https://1drv.ms/f/c/3b1b1d9d0fc5490f/Ejq918cXq7lHhk8mfk34YO8BDTYlN8a_13xZXaHra3egtA?e=YonIrY), and put in the `representations` directory. This part can then be skipped.
 
 Set up the following virtual environment if you didn't do the first part (this will work for the following parts as well)
 ```
