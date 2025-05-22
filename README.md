@@ -2,6 +2,8 @@
 
 This repository contains code necessary to reproduce the figures in our paper. It is made up of three parts:
 
+---------------------
+
 **Part 1:** Processing token activations with SAE (following Engels et al. (2025)).
 
 Here, we follow Engel's et al (2025) (and the code in [the accompanying Github repository](https://github.com/JoshEngels/MultiDimensionalFeatures)) to extract token activations corresponding to the features "years of the 20th century", "months of the year" and "days of the week". 
@@ -20,6 +22,8 @@ Set up a Huggingface login token and save it in an environment variable `HUGGING
 
 Then run the code in the notebook `1-process_sae_activations.ipynb`.
 
+---------------------
+
 **Part 2:** Getting text embeddings from OpenAI's `text-embedding-large-3`.
 
 Running this code is currently required, but we will shortly provide a link to download the embeddings obtained in this part.
@@ -35,6 +39,8 @@ Setup an account with OpenAI and save your access token in an environment variab
 
 Then run the code in the notebook `2-get_text_embeddings.ipynb`.
 
+---------------------
+
 **Part 3:** Reproducing the figures from the paper.
 
 If you didn't run either of the previous two parts, set up the following virtual environment:
@@ -46,6 +52,7 @@ pip install numpy pandas scipy scikit-learn matplotlib plotly ipykernel nbformat
 
 Then run the code in the notebook `3-reproduce_figures.ipynb`.
 
+---------------------
 
 ##### References
 Joshua Engels, Eric J. Michaud, Isaac Liao, Wes Gurnee, and Max Tegmark. Not All Language Model Features Are One-Dimensionally Linear. In *The Thirteenth International Conference on 368 Learning Representations, ICLR 2025, Singapore, April 24-28, 2025*.
